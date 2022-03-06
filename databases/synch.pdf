@@ -1,0 +1,3 @@
+HW:
+
+SELECT s.first, s.last, s.studentID, s.grade, s.scanTime, s.status, p.date, p.coursesection, p.attendance, p.teacher, p.period FROM scan AS s LEFT JOIN periodAtt as p ON s.studentID=p.studentID AND substr(s.scantime, 1, instr(s.scantime,’ ‘)-1)=p.date WHERE attendance=’A’ ORDER BY s.last ASC
