@@ -1,0 +1,1 @@
+I really had no idea how to go about this and didn't have enough time.  I'm happy to do a makeup assignment but simply didn't have enough hours to commit to understanding how to learn and then apply this material.  
