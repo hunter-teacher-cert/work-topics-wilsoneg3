@@ -1,7 +1,7 @@
-I struggled with this independently and then talked it through with Eduardo.
+//I struggled with this independently and then talked it through with Eduardo.
 
-Eduardo, Mamudu, and Michele P worked together on this assignment.  I talked it through with Eduardo.
-The above checked other Repos for guidance: Daiana, Tiffany, and Peter.  I also reviewed their Repos.
+//Eduardo, Mamudu, and Michele P worked together on this assignment.  I talked it through with Eduardo.
+//The above checked other Repos for guidance: Daiana, Tiffany, and Peter.  I also reviewed their Repos.
 
 class Perceptron {
   
