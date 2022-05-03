@@ -13,12 +13,12 @@ def encrypt(text,s):
     # allow wraparound by mod 26
     # make A's unicode 65 again by adding 65
     # convert unicode to letter
-      e_result += chr((ord(char) - 65 + s) % 26 + 65)
+      a_result += chr((ord(char) - 65 + s) % 26 + 65)
     else:
     # Async Work: Encrypt lowercase characters in plain text
       #result += "replace me with code"
       a_result += chr((ord(char) - 97 + s) % 26 + 97) 
-  return result
+  return a_result
 
   #enter alphabetic text without spaces and a desired shift
 #text = "ABab"
@@ -32,7 +32,7 @@ print("Encrypted Text: " + encrypt(text,s))
 #Homework Bell Pepper Version: Write a function that decrypts a symmetric cipher with a given shift
 #text = "DCdc"
 text = encrypt(text, s)
-#s = 29
+#s = 27
 
 def decrypt(text,s):
   a_result = ""
